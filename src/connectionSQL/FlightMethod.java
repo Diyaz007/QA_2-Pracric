@@ -1,10 +1,8 @@
-package ConnectionSQL;
+package connectionSQL;
 
-import Airport.Airports;
-import Flight.Flight;
+import flight.Flight;
 
 import java.sql.*;
-import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 

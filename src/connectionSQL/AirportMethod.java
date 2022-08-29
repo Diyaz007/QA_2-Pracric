@@ -1,7 +1,6 @@
-package ConnectionSQL;
+package connectionSQL;
 
-import Airport.Airports;
-import Countries.Country;
+import airport.Airports;
 
 import java.sql.*;
 import java.util.ArrayList;

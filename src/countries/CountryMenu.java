@@ -1,6 +1,6 @@
-package Countries;
+package countries;
 
-import ConnectionSQL.CountryMethod;
+import connectionSQL.CountryMethod;
 
 import java.util.Scanner;
 

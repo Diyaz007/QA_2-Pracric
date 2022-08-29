@@ -1,8 +1,8 @@
-import Airport.AirportMenu;
-import Clients.CustomerMenu;
-import Countries.CountryMenu;
-import Flight.FlightMenu;
-import Tickets.TicketMenu;
+import airport.AirportMenu;
+import clients.CustomerMenu;
+import countries.CountryMenu;
+import flight.FlightMenu;
+import tickets.TicketMenu;
 
 import java.util.Scanner;
 

@@ -1,8 +1,6 @@
-package Airport;
+package airport;
 
-import ConnectionSQL.AirportMethod;
-import ConnectionSQL.CountryMethod;
-import Countries.Country;
+import connectionSQL.AirportMethod;
 
 import java.util.Scanner;
 

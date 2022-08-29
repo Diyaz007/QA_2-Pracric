@@ -1,6 +1,6 @@
-package ConnectionSQL;
+package connectionSQL;
 
-import Countries.Country;
+import countries.Country;
 
 import java.sql.*;
 import java.util.ArrayList;

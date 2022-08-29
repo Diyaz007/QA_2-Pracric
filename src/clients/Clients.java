@@ -1,4 +1,8 @@
-package Clients;
+package clients;
+
+import airport.Airports;
+import connectionSQL.CountryMethod;
+import countries.Country;
 
 public class Clients {
     private int id;
@@ -54,5 +58,12 @@ public class Clients {
 
     public void setCountry(int country) {
         this.country = country;
+    }
+
+    @Override
+    public String toString() {
+        CountryMethod countryMethod = new CountryMethod();
+        Country country = countryMethod.getCountry(getCountry());
+        return "| id = " + getId() + "| идентификационный номер = " + getIdentification_number() + "| id паспорта = " + getId_passport() + "| ФИО = " + getFull_name() + " | пол = " + getGender() + " | страна = " + country.getName_of_country() + " |\n";
     }
 }

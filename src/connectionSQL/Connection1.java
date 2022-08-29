@@ -1,6 +1,4 @@
-package ConnectionSQL;
-
-import Countries.Country;
+package connectionSQL;
 
 import java.sql.*;
 

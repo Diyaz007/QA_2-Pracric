@@ -1,7 +1,7 @@
-package Airport;
+package airport;
 
-import ConnectionSQL.CountryMethod;
-import Countries.Country;
+import connectionSQL.CountryMethod;
+import countries.Country;
 
 public class Airports {
     private int id;

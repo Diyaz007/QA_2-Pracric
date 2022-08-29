@@ -1,8 +1,6 @@
-package Flight;
+package flight;
 
-import Airport.Airports;
-import ConnectionSQL.AirportMethod;
-import ConnectionSQL.FlightMethod;
+import connectionSQL.FlightMethod;
 
 import java.util.Scanner;
 

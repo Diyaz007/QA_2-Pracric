@@ -1,9 +1,9 @@
-package Flight;
+package flight;
 
-import Airport.Airports;
-import ConnectionSQL.AirportMethod;
-import ConnectionSQL.CountryMethod;
-import Countries.Country;
+import airport.Airports;
+import connectionSQL.AirportMethod;
+import connectionSQL.CountryMethod;
+import countries.Country;
 
 import java.sql.Time;
 

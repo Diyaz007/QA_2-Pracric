@@ -1,4 +1,4 @@
-package Tickets;
+package tickets;
 
 import java.sql.Time;
 

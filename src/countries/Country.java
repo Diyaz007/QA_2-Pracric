@@ -1,4 +1,4 @@
-package Countries;
+package countries;
 
 public class Country {
     private int id;

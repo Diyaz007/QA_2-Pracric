@@ -35,7 +35,7 @@ public class CountryMethod {
     }
 
     public void updateCountry(Country country, int code_of_the_country) {
-        String SQL = "UPDATE \"qa_2_practic\".countries set code_of_the_country = " + country.getCode_of_the_country() + ",name_of_country = \'" + country.getName_of_country() + "\' where code_of_the_country = " + code_of_the_country + "";
+        String SQL = "UPDATE \"qa_2_practic\".countries set code_of_the_country = " + country.getCode_of_the_country() + ",name_of_country = UPPER (\'" + country.getName_of_country() + "\') where code_of_the_country = " + code_of_the_country + "";
         try (Connection conn = connection1.connect();
              Statement stmt = conn.createStatement()) {
             ResultSet rs = stmt.executeQuery(SQL);

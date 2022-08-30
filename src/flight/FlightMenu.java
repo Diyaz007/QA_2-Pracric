@@ -95,9 +95,9 @@ public class FlightMenu {
                 System.out.println(flightMethod.getAllFlight());
             } else if (menuItem == 2) {
                 System.out.println("Фильтр по коду аэропорта! ");
-                System.out.print("код аэропорта от: ");
+                System.out.print("код аэропорта отправление: ");
                 int code_of_the_airport_ot = sc.nextInt();
-                System.out.print("код аэропорта до: ");
+                System.out.print("код аэропорта прибытие: ");
                 int code_of_the_airport_do = sc.nextInt();
                 System.out.println(flightMethod.getAllFlightWithCodeOfAirport(code_of_the_airport_ot, code_of_the_airport_do));
             } else if (menuItem == 0) {

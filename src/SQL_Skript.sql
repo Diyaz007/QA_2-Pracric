@@ -31,10 +31,10 @@ create table "qa_2_practic".Clients(
                                        full_name varchar not null ,
                                        gender varchar(10) not null ,
                                        country int references Countries(code_of_the_country),
-                                       PRIMARY KEY (id)
+                                       PRIMARY KEY (id_passport)
 );
 create table "qa_2_practic".Tickets(
-                                       id_clients int references Clients(id),
+                                       id_clients int references Clients(id_passport),
                                        flight_number int references Flight(flight_number),
                                        receiving_time time not null ,
                                        number_of_ticket serial not null unique
